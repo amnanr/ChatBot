@@ -15,7 +15,7 @@ To get started, clone the repository from GitHub using the following command:
 ```
 git clone {link}
 cd ChatBot
-cd chatbot-project
+cd chatbot_project
 ```
 
 ### 2. Set Up the Database
