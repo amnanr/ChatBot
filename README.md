@@ -1,28 +1,42 @@
-# Chatbot Web Application
+# Chatbot Web Application Setup Guide
 
-A simple chatbot web application built using Django with a frontend chat interface. The app features a chatbot that provides predefined responses, supports dark/light mode switching, and allows file uploads.
+## Introduction
 
-## Features
+This project is a Django-based chatbot web application that allows users to interact with a chatbot, switch between dark and light modes, and upload files. The bot provides predefined responses to user queries.
 
-- Chatbot with predefined responses.
-- Dark/Light mode toggle for improved readability.
-- File upload functionality with saved file records in the database.
-- Easy-to-use chat interface.
+In this guide, you'll learn how to set up and run this project locally after cloning it from GitHub.
 
-## Prerequisites
-
-Before setting up the project, make sure you have the following installed:
-
-- **Python 3.x**
-- **Django**
-- **Pipenv** or **virtualenv** (recommended for managing virtual environments)
-
-## Setup Instructions
-
-Follow these steps to set up the chatbot application locally after cloning the repository from GitHub.
+## Steps to Set Up the Project
 
 ### 1. Clone the Repository
 
-```bash
-git clone https://github.com/yourusername/chatbot-webapp.git
-cd chatbot-webapp
+To get started, clone the repository from GitHub using the following command:
+
+```
+git clone {link}
+cd ChatBot
+cd chatbot-project
+```
+
+### 2. Set Up the Database
+You’ll need to set up the database. Django will handle the database migrations for you:
+
+```
+python manage.py migrate
+```
+
+If you want access to the Django admin interface, create a superuser by running:
+
+```
+python manage.py createsuperuser
+```
+
+### 3. Run the App
+Run the App using the following command in the terminal:
+
+```
+python manage.py runserver
+```
+
+### 4. Some ScreenShots of the Working App: 
+![App Screenshot](images/screenshot.png)
