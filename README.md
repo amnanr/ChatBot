@@ -39,4 +39,11 @@ python manage.py runserver
 ```
 
 ### 4. Some ScreenShots of the Working App: 
+
+Dark Mode:
+
 ![Dark Mode](Images/Dark-Mode.png)
+
+Light Mode:
+
+![Light Mode](Images/Light Mode.png)
