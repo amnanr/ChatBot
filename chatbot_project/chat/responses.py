@@ -8,7 +8,7 @@ predefined_responses = {
 
 # Define a mapping of keywords to the respective predefined response keys
 keywords_mapping = {
-    "AJCL": "What is AJCL ?",
+    "ajcl": "What is AJCL ?",
     "what": "What is AJCL ?",
     "opening": "Opening Hours ?",
     "Opening": "Opening Hours ?",
