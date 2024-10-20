@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Support Chat</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'chat/css/chatPage.css' %}">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h2>Customer Support</h2>
+            <div class="logo">AJCL <br> CUSTOMER SUPPORT</div>
+        </div>
+
+        <!-- Chat Screen -->
+        <div class="chat-screen">
+            <div class="header">
+                <h1>AJCL</h1>
+                <!-- Dark/Light Mode Toggle -->
+                <button class="mode-toggle" id="modeToggle" onclick="toggleMode()">🌙</button>
+            </div>
+            
+            <!-- Chat Box -->
+            <div class="chat-box">
+                <div class="message bot">
+                    <span class="avatar">🤖</span>
+                    <p>Hello, welcome to the AJCL Customer Support Center. How can I assist you?</p>
+                </div>
+            </div>
+
+            <!-- Action Buttons (Cards) -->
+            <div class="options">
+                <button>What is AJCL ?</button>
+                <button>Opening Hours ?</button>
+                <button>Services Available ?</button>
+            </div>
+
+            <!-- Text Input and File Attach -->
+            <div class="chat-input">
+                <input type="text" placeholder="Type a message..." id="messageInput">
+                
+                <!-- Attach file button -->
+                <input type="file" id="fileInput" style="display: none;">
+                <button id="attachButton">📎</button>
+                
+                <!-- Send button -->
+                <button onclick="sendMessage()">➤</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="{% static 'chat/js/script.js' %}"></script>
+</body>
+</html>
