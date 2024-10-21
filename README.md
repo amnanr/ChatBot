@@ -47,3 +47,23 @@ Dark Mode:
 Light Mode:
 
 ![Light Mode](Images/Light Mode.png)
+
+Predefined Questions (the question cards/buttons on the bottom) with Responses From Backend/ChatBot:
+
+![Predefined Questions](Images/Predefined-Questions.png)
+
+Other Questions and Their Responses:
+
+![Other Questions](Images/Other_questions.png)
+
+Uploading a File:
+
+![File Upload](Images/File-upload.png)
+
+Conversation Stored in the Database:
+
+![Conversation in Database](Images/Conversation_database.png)
+
+Uploaded Files Stored in a Folder:
+
+![Saved Files](Images/save_uploaded_files.png)
