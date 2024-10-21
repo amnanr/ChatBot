@@ -46,7 +46,7 @@ Dark Mode:
 
 Light Mode:
 
-![Light Mode](Images/Light Mode.png)
+![Light Mode](Images/Light_Mode.png)
 
 Predefined Questions (the question cards/buttons on the bottom) with Responses From Backend/ChatBot:
 
